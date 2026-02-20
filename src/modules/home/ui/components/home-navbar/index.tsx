@@ -11,7 +11,7 @@ export const HomeNavbar = () => {
                 {/* Menu and Logo */}
                 <div className="flex items-center flex-shrink-0">
                     <SidebarTrigger />
-                    <Link href="/">
+                    <Link href="/home">
                         <div className="p-3 flex items-center gap-1">
                             <Image src="/logo.webp" width={52} height={52} alt="Logo" />
                             <p className="text-xl font-semibold tracking-tight">Scholrpark</p>
